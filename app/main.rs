@@ -1,10 +1,19 @@
-#![allow(warnings)]
+// #![allow(warnings)]
+
+pub mod helpers;
 
 fn main() {
     println!("Hello from Rust, Harrie smulders");
-    test_func();
+    // test_func();
+    
+    let myresult = helpers::namehelpers::get_full_name("Harrie", "Smulders");
+    println!("Hello from {0}", myresult);
+
+    let new_age = helpers::private_fns::get_age_plus_5(23);
+    println!("The new age is {0}", new_age);
 }
 
+#[allow(dead_code)]
 fn test_func() {
     // let x:  u8 = 225;
     // println!("{:?}", x);

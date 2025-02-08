@@ -16,3 +16,7 @@ https://www.youtube.com/watch?v=MJrBLTHJPCo&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPB
 
 ...
 
+## 03 Rust Functions and Modules
+
+...
+

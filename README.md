@@ -23,17 +23,23 @@ https://www.youtube.com/watch?v=MJrBLTHJPCo&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPB
 ...
 
 ## 03 Rust Functions and Modules
-
+https://www.youtube.com/watch?v=io7MSlvYyWg&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=3
 ...
 
 ## 04 Intro to Rust Control Flow Statements & Conditional Expressions
-
+https://www.youtube.com/watch?v=3XpxkJXggHA&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=4
 ...
 
 ## 05 Understanding Rust Closures aka. Anonymous Functions
+https://www.youtube.com/watch?v=qXNUHfpalts&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=5
 
 Closures: Anonymous Functions that Capture Their Environment
 https://doc.rust-lang.org/book/ch13-01-closures.html
+
+...
+
+## 06 Rust Match Expressions and Patterns
+https://www.youtube.com/watch?v=pf8eQwWkTaY&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=6
 
 ...
 

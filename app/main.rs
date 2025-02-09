@@ -2,6 +2,7 @@
 
 pub mod helpers;
 pub mod closures;
+pub mod matchtest;
 
 fn main() {
     println!("Hello from Rust, Harrie smulders");
@@ -17,7 +18,10 @@ fn main() {
     // test_while();
     // test_loop();
     // test_for();
-    closures::test_closures();
+    // closures::test_closures();
+    // matchtest::test_match_int();
+    // matchtest::test_match_string();
+    matchtest::test_match_array();
 }
 
 #[allow(dead_code)]

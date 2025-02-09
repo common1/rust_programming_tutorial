@@ -1,6 +1,7 @@
 // #![allow(warnings)]
 
 pub mod helpers;
+pub mod closures;
 
 fn main() {
     println!("Hello from Rust, Harrie smulders");
@@ -15,9 +16,11 @@ fn main() {
     // test_if();
     // test_while();
     // test_loop();
-    test_for();
+    // test_for();
+    closures::test_closures();
 }
 
+#[allow(dead_code)]
 fn test_for() {
     let ages = [14, 18, 26, 35, 41];
     let age_to_drive = 16i32;

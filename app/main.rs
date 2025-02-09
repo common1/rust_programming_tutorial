@@ -1,8 +1,11 @@
-// #![allow(warnings)]
+#![allow(warnings)]
+
+use optiontest::CharacterType;
 
 pub mod helpers;
 pub mod closures;
 pub mod matchtest;
+pub mod optiontest;
 
 fn main() {
     println!("Hello from Rust, Harrie smulders");
@@ -21,7 +24,23 @@ fn main() {
     // closures::test_closures();
     // matchtest::test_match_int();
     // matchtest::test_match_string();
-    matchtest::test_match_array();
+    // matchtest::test_match_array();
+    let result = optiontest::test_option_type();
+    println!("{0}", result.unwrap());
+
+    let strresult = optiontest::test_option_string();
+    println!("Name is : {0}", strresult.unwrap());
+
+    let charresult = optiontest::test_option_chartype();
+
+    if charresult.is_some() {
+        println!("User has selected a character type");
+        println!("Character type selected is: {}",charresult.unwrap().to_string());
+    }
+    else {
+        println!("Charactertype is None");
+    }
+
 }
 
 #[allow(dead_code)]

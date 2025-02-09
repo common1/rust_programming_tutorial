@@ -43,3 +43,8 @@ https://www.youtube.com/watch?v=pf8eQwWkTaY&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPB
 
 ...
 
+## 07 Rust Option Enum Type Overview
+https://www.youtube.com/watch?v=z8k_EViGC10&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=7
+
+...
+

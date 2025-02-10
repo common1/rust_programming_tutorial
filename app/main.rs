@@ -1,6 +1,6 @@
 #![allow(warnings)]
 
-use crate::mystructs::{test_create_person, create_vehicle};
+use crate::mystructs::{test_create_person, create_vehicle, create_vehicle_tuple};
 
 pub mod helpers;
 pub mod closures;
@@ -45,6 +45,7 @@ fn main() {
 
     test_create_person();
     create_vehicle();
+    create_vehicle_tuple();
 }
 
 #[allow(dead_code)]

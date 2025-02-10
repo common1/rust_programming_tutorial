@@ -53,5 +53,4 @@ https://www.youtube.com/watch?v=3Ly25IYHIMc&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPB
 
 ...
 
-Current: 26:54
 

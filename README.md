@@ -48,3 +48,8 @@ https://www.youtube.com/watch?v=z8k_EViGC10&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPB
 
 ...
 
+## 08 Intro to Developing User-Defined Rust Structs
+https://www.youtube.com/watch?v=3Ly25IYHIMc&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=8
+
+...
+

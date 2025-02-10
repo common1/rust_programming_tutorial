@@ -53,4 +53,8 @@ https://www.youtube.com/watch?v=3Ly25IYHIMc&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPB
 
 ...
 
+## 09 Implement Methods on Rust Structs
+https://www.youtube.com/watch?v=7EYSXQFRyKY&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=9
+
+...
 

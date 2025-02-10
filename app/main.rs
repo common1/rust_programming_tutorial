@@ -1,16 +1,17 @@
 #![allow(warnings)]
 
-use optiontest::CharacterType;
+use crate::mystructs::{test_create_person, create_vehicle};
 
 pub mod helpers;
 pub mod closures;
 pub mod matchtest;
 pub mod optiontest;
+pub mod mystructs;
 
 fn main() {
     println!("Hello from Rust, Harrie smulders");
     // test_func();
-    
+
     // let myresult = helpers::namehelpers::get_full_name("Harrie", "Smulders");
     // println!("Hello from {0}", myresult);
 
@@ -25,22 +26,25 @@ fn main() {
     // matchtest::test_match_int();
     // matchtest::test_match_string();
     // matchtest::test_match_array();
-    let result = optiontest::test_option_type();
-    println!("{0}", result.unwrap());
+    // let result = optiontest::test_option_type();
+    // println!("{0}", result.unwrap());
 
-    let strresult = optiontest::test_option_string();
-    println!("Name is : {0}", strresult.unwrap());
+    // let strresult = optiontest::test_option_string();
+    //     println!("First name: {0}", myperson.first_name);
+    // println!("Name is : {0}", strresult.unwrap());
 
-    let charresult = optiontest::test_option_chartype();
+    // let charresult = optiontest::test_option_chartype();
 
-    if charresult.is_some() {
-        println!("User has selected a character type");
-        println!("Character type selected is: {}",charresult.unwrap().to_string());
-    }
-    else {
-        println!("Charactertype is None");
-    }
+    // if charresult.is_some() {
+    //     println!("User has selected a character type");
+    //     println!("Character type selected is: {}",charresult.unwrap().to_string());
+    // }
+    // else {
+    //     println!("Charactertype is None");
+    // }
 
+    test_create_person();
+    create_vehicle();
 }
 
 #[allow(dead_code)]

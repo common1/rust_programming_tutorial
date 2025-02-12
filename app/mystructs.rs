@@ -34,50 +34,78 @@ struct Vehicle {
     color: VehicleColor,
 }
 
+impl Vehicle {
+    fn paint(&mut self, new_color: VehicleColor) {
+        self.color = new_color;
+    }
+
+    fn create_vehicle() -> Vehicle{
+        let new_vehicle = Vehicle {
+            manufacturer: "default".to_string(),
+            model: "default".to_string(),
+            year: 1990,
+            color: VehicleColor::Blue
+        };
+        return new_vehicle;
+    }
+}
+
 fn new_vehicle() -> Vehicle {
-    let v1 = Vehicle{
+    let mut v1 = Vehicle{
         manufacturer: "Porsche".to_string(),
         model: "911".to_string(),
         year: 1991,
-        color: VehicleColor::Silver,
+        color: VehicleColor::Green,
     };
+    v1.paint(VehicleColor::White);
     return v1
 }
 
 pub fn create_vehicle() {
-    let myvehicle = new_vehicle();
+    // let myvehicle = new_vehicle();
+    let mut myvehicle = Vehicle::create_vehicle();
+    myvehicle.paint(VehicleColor::White);
     println!("{:#?}", myvehicle);
 }
 
-struct Person<'p> {
-    first_name: Cell<&'p str>,
+struct Person {
+    first_name: String,
     last_name: String,
     birth_month: u8,
     birth_year: u16,
     visited_europe: bool,
+    meters_walked: u32
 }
 
-fn new_person() -> Person<'static> {
+impl Person {
+    fn walk_meters(&mut self, meters: u32) {
+        self.meters_walked += meters;
+    }
+}
+
+
+fn new_person() -> Person {
     let p1 = Person{
-        first_name: Cell::from("Trevor"),
+        first_name: "Trevor".to_string(),
         last_name: "Sullivan".to_string(),
         birth_month: 6,
         birth_year: 1986,
         visited_europe: false,
+        meters_walked: 0
     };
-    p1.first_name.set("Shannon");
+    // p1.first_name.set("Shannon");
     // p1.last_name = "Jones".to_string();
     return p1;
 }
 
 pub fn test_create_person() {
-    let myperson : Person<'_>= new_person();
-    println!("First name: {0}, last name: {1}, birth month: {2}, birth year: {3}, visited europe {4}",
-        myperson.first_name.get(),
+    let mut myperson : Person = new_person();
+    myperson.walk_meters(8);
+    myperson.walk_meters(20);
+    println!("First name: {0}, last name: {1}, meters walked: {2}",
+        myperson.first_name,
         myperson.last_name,
-        myperson.birth_month,
-        myperson.birth_year,
-        myperson.visited_europe
+        myperson.meters_walked
     );
 }
 

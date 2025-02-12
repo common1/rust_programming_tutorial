@@ -44,8 +44,8 @@ fn main() {
     // }
 
     test_create_person();
-    create_vehicle();
-    create_vehicle_tuple();
+    // create_vehicle();
+    // create_vehicle_tuple();
 }
 
 #[allow(dead_code)]

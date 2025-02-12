@@ -7,6 +7,7 @@ pub mod closures;
 pub mod matchtest;
 pub mod optiontest;
 pub mod mystructs;
+pub mod test_traits;
 
 fn main() {
     println!("Hello from Rust, Harrie smulders");
@@ -43,9 +44,10 @@ fn main() {
     //     println!("Charactertype is None");
     // }
 
-    test_create_person();
+    // test_create_person();
     // create_vehicle();
     // create_vehicle_tuple();
+    test_traits::create_person();
 }
 
 #[allow(dead_code)]

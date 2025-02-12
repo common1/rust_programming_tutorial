@@ -60,3 +60,8 @@ Closures: Anonymous Functions that Capture Their Environment<br>
 
 ...
 
+## 10 Rust Generics and Traits: Define Common Struct Behaviors
+[https://www.youtube.com/watch?v=XKbOVFt3UNY&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=10]
+
+...
+

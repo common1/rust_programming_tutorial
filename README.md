@@ -65,3 +65,10 @@ Closures: Anonymous Functions that Capture Their Environment<br>
 
 ...
 
+## 11 Use the Rust Vec Type for Dynamically Expanding Arrays
+[https://www.youtube.com/watch?v=VIBbzFQcedU&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=11]
+
+Current : 18:28
+
+...
+

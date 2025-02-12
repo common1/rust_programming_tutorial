@@ -8,6 +8,7 @@ pub mod matchtest;
 pub mod optiontest;
 pub mod mystructs;
 pub mod test_traits;
+pub mod myvec;
 
 fn main() {
     println!("Hello from Rust, Harrie smulders");
@@ -47,7 +48,9 @@ fn main() {
     // test_create_person();
     // create_vehicle();
     // create_vehicle_tuple();
-    test_traits::create_person();
+    // test_traits::create_person();
+    myvec::test_vec_int();
+
 }
 
 #[allow(dead_code)]

@@ -70,5 +70,5 @@ Closures: Anonymous Functions that Capture Their Environment<br>
 
 ...
 
-Current: 32:53
+Current: 37:35
 

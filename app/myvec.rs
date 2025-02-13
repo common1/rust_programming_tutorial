@@ -51,6 +51,10 @@ pub fn test_vec_car() {
 
     car_list.append(&mut car_list2);
     car_list.insert(0, Car{manufacturer: "Lamborghini".to_string(), model: "Avantador".to_string()});
+    car_list.remove(0);
+
+    let keep = |e: &Car| {if e.manufacturer == "Porsche" {return true;} else {return false}};
+    car_list.retain(keep);
 
     println!("{:?}", car_list);
     println!("{:?}", car_list.len());
@@ -59,5 +63,7 @@ pub fn test_vec_car() {
     println!("{:?}", car_list2.capacity());
 
     println!("{:?}", car_list.get(0).unwrap());
+
+
 }
 

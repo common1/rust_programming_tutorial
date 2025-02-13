@@ -49,7 +49,9 @@ fn main() {
     // create_vehicle();
     // create_vehicle_tuple();
     // test_traits::create_person();
-    myvec::test_vec_int();
+    // myvec::test_vec_int();
+    // myvec::test_vec_string();
+    myvec::test_vec_car();
 
 }
 

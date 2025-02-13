@@ -17,3 +17,47 @@ pub fn test_vec_int() {
 
     println!("First element is: {:?}", my_ints.get(1));
 }
+
+pub fn test_vec_string() {
+    let first_names = vec!["Trevor", "Nancy", "Shannon", "Billy", "Rachel"];
+
+    for first_name in first_names.as_slice() {
+        println!("Processing {} ...", first_name);
+    }
+
+    println!("{:?}", first_names);
+}
+
+#[derive(Debug)]
+struct Car {
+    manufacturer: String,
+    model: String
+}
+
+pub fn test_vec_car() {
+    // let car_list = vec!["Trevor"; 10];
+
+    let mut car_list: Vec<Car> = vec![];
+
+    let mut car_list2: Vec<Car> = vec![];
+
+    for _ in 1..=100u8 {
+        car_list.push(Car{manufacturer: "Porsche".to_string(), model: "Panamera".to_string()});
+    }
+
+    for _ in 1..=100u8 {
+        car_list2.push(Car{manufacturer: "Hyundai".to_string(), model: "Sonata".to_string()});
+    }
+
+    car_list.append(&mut car_list2);
+    car_list.insert(0, Car{manufacturer: "Lamborghini".to_string(), model: "Avantador".to_string()});
+
+    println!("{:?}", car_list);
+    println!("{:?}", car_list.len());
+    println!("{:?}", car_list2.len());
+    println!("{:?}", car_list.capacity());
+    println!("{:?}", car_list2.capacity());
+
+    println!("{:?}", car_list.get(0).unwrap());
+}
+

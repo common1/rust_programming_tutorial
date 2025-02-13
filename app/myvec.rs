@@ -56,6 +56,8 @@ pub fn test_vec_car() {
     let keep = |e: &Car| {if e.manufacturer == "Porsche" {return true;} else {return false}};
     car_list.retain(keep);
 
+    car_list.reserve(5000);
+
     println!("{:?}", car_list);
     println!("{:?}", car_list.len());
     println!("{:?}", car_list2.len());
@@ -64,6 +66,9 @@ pub fn test_vec_car() {
 
     println!("{:?}", car_list.get(0).unwrap());
 
+    // let mut input = "".to_string();
+    // std::io::stdin().read_line( &mut input);
+    
 
 }
 

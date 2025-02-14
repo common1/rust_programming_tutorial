@@ -9,6 +9,8 @@ pub mod optiontest;
 pub mod mystructs;
 pub mod test_traits;
 pub mod myvec;
+pub mod myhashmap;
+pub mod myhashset;
 
 fn main() {
     println!("Hello from Rust, Harrie smulders");
@@ -51,7 +53,9 @@ fn main() {
     // test_traits::create_person();
     // myvec::test_vec_int();
     // myvec::test_vec_string();
-    myvec::test_vec_car();
+    // myvec::test_vec_car();
+    // myhashmap::test_hashmap_basic();
+    myhashset::test_hashset_type();
 
 }
 

@@ -70,4 +70,8 @@ Closures: Anonymous Functions that Capture Their Environment<br>
 
 snap install btop
 
+## 12 Rust HashMap and HashSet Collection Types
+[https://www.youtube.com/watch?v=KYw3Lnf0nSY&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=12]
+
+...
 

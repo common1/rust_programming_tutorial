@@ -75,3 +75,8 @@ snap install btop
 
 ...
 
+## 13 Popular Rust Iterator Methods
+https://www.youtube.com/watch?v=81CC2V9uR5Y&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=13
+
+...
+

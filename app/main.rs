@@ -11,6 +11,7 @@ pub mod test_traits;
 pub mod myvec;
 pub mod myhashmap;
 pub mod myhashset;
+pub mod myiters;
 
 fn main() {
     println!("Hello from Rust, Harrie smulders");
@@ -55,7 +56,8 @@ fn main() {
     // myvec::test_vec_string();
     // myvec::test_vec_car();
     // myhashmap::test_hashmap_basic();
-    myhashset::test_hashset_type();
+    // myhashset::test_hashset_type();
+    myiters::test_rust_iterators();
 
 }
 

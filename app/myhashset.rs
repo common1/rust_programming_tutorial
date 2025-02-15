@@ -14,7 +14,7 @@ pub fn test_hashset_type() {
 
     println!("\n");
 
-    planet_list.insert("Sarurn");
+    planet_list.insert("Saturn");
     planet_list.insert("Uranus");
     planet_list.insert("Neptune");
     planet_list.insert("Pluto");

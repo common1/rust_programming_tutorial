@@ -76,7 +76,25 @@ snap install btop
 ...
 
 ## 13 Popular Rust Iterator Methods
-https://www.youtube.com/watch?v=81CC2V9uR5Y&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=13
+[https://www.youtube.com/watch?v=81CC2V9uR5Y&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=13]
 
 ...
+
+## 14 Rust Time Module and Chrono Crate Intro
+[https://www.youtube.com/watch?v=hZ0hT2LVxCc&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=14]
+
+```
+cargo add chrono
+
+extern crate chrono;
+
+timedatectl
+
+timedatectl list-timezones
+
+timedatectl set-timezone Europe/Amsterdam
+
+```
+
+Current 47:36
 

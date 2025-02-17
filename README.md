@@ -96,5 +96,8 @@ timedatectl set-timezone Europe/Amsterdam
 
 ```
 
-Current 47:36
+## 15 Rust Threading Basics
+[https://www.youtube.com/watch?v=YKBwKy5PrpQ&list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL&index=15]
+
+...
 
